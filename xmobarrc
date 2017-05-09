@@ -13,7 +13,7 @@
 Config { 
   -- Set font and default foreground/background colors. Note that
   -- the height of xmobar is controlled by the font you use.
-  font = "xft:Ubuntu Mono-14",
+  font = "xft:Ubuntu Mono-16",
   bgColor = "black",
   fgColor = "grey",
 
@@ -40,7 +40,7 @@ Config {
     ] 10,
 
     -- Date formatting
-    Run Date "%a %b %_d %l:%M" "date" 10,
+    Run Date "%a %F  %k:%M:%S" "date" 10,
 
     -- Battery information. This is likely to require some customization
     -- based upon your specific hardware. Or, for a desktop you may want
